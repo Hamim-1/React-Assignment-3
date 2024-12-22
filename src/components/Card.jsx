@@ -21,7 +21,7 @@ const Card = ({ data, isRow }) => {
                     {name}
                 </p>
 
-                <p className="text-sm text-secondary">{about}</p>
+                <p className="text-sm text-[#5e5e5e]">{about}</p>
 
                 <section className="flex items-center mt-5">
                     {star.map(value => (
