@@ -1,0 +1,28 @@
+.slick-dots li.slick-active button::before {
+  color: white;
+  font-size: 15px;
+  margin: -1px 0 0 -3px;
+}
+
+
+.slick-dots li button {
+  background-color: rgba(255, 255, 255, 0.438);
+  border-radius: 9999px;
+  position: relative;
+  width: 15px;
+  height: 15px;
+}
+
+.slick-dots {
+  color: blue;
+  margin: -20px 0 !important;
+}
+
+.slick-dots li button::before {
+  background: none;
+  color: transparent;
+}
+
+.slick-slide div {
+  margin: 0 5px;
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply w-full max-w-[1200px] mx-auto px-3;
+}
+
+.custom-button {
+  @apply text-white px-8 py-2 rounded-full;
+}
+
+@layer utilities {
+  .custom-gradient {
+    background: linear-gradient(to right, #000000bb 30%, transparent 70%);
+  }
+}
